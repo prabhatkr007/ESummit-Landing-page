@@ -10,9 +10,30 @@
 </head>
 <body>
     <div class="hero">
-        <video autoplay poster="bg-image.png" muted loop plays-inline class="back-video">
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.148.0/three.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.waves.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.globe.min.js"></script>
+        <script type="text/javascript">
+                VANTA.GLOBE({
+                    el: ".hero",
+                    mouseControls: true,
+                    touchControls: true,
+                    gyroControls: true,
+                    minHeight: 200.00,
+                    minWidth: 200.00,
+                    scale: 1.00,
+                    scaleMobile: 1.00
+
+                })
+        </script>
+    </div>
+    <div class="hero1">
+        
+
+        <!-- <video autoplay poster="bg-image.png" muted loop plays-inline class="back-video">
             <source src="bg.mp4" type="video/mp4">
-        </video>
+        </video> -->
         <nav>
             <img src="logo.png" class="logo">
 
