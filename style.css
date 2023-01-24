@@ -118,7 +118,7 @@ button:hover{
     transition: 0.5s;
     color: #fff;
     background-color: #a31e58;
-    border:2px solid #a31e58;   
+    border:2px solid white;   
     ;
 }
 .back-video{
